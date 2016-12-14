@@ -1,6 +1,8 @@
 About
 -----
 
+![Mixed Reality](./img/mixed-reality.gif)
+
 This is a mostly working mixed reality setup, utilizing the Kinect. It does not require a green screen or post processing of video feeds. It works by rendering the output from the Kinect as point cloud (created from the depth and color cameras). The point cloud also has normals generated for it so we can accomplish some in game lighting on the avatar. Instead of rendering the entire point cloud, we render a bounding box of points. The bounding box is created using the user's head position and controller positions (ensuring that both fit within the box, and extending the box from the head down to the floor).
 
 You will need one controller to act as the tracker for the kinect. The Vive is capable of tracking more than two controllers, so a third controller can be dedicated to tracking the Kinect. We set up a simple rig using a standard camera stabilizer.
@@ -23,6 +25,6 @@ Under that object there is KinectOrigin and then KinectView. On Kinect View make
 
 We also have a light attached to the left hand which you may want to remove. 
 
-
+![Gorilla](./img/gorilla1.jpg)
 
 
