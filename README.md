@@ -7,6 +7,8 @@ This is a mostly working mixed reality setup, utilizing the Kinect. It does not 
 
 You will need one controller to act as the tracker for the kinect. The Vive is capable of tracking more than two controllers, so a third controller can be dedicated to tracking the Kinect. We set up a simple rig using a standard camera stabilizer.
 
+![Our Rig](./img/mr-rig.jpg)
+
 If you can't spare an extra controller, you can set up the camera in a fixed position and not use the tracking features.
 
 This project mostly uses hacked up bits of Microsoft's Unity Kinect example. The point cloud creation is fairly slow and won't be suitable to include in public builds, but may be useful for teams to produce their own mixed reality footage for marketing purposes and as a base to begin experimenting on.
